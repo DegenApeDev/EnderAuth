@@ -14,7 +14,7 @@ We need some help!
 - [x] Only chat after logged in (event)
 - [ ] Only allowed commands when not logged in: /login, /register, /help
 - [x] Login timeout after ? min
-- [ ] Dicret login and register by typing password in chat to register/login
+- [ ] Direct login and register by typing password in chat to register/login
 - [ ] Confirm register password by typing your password again in chat
 - [ ] Confirm changing your password with new one you will have
 - [ ] IpAuth login by the same ip adress like the last one
