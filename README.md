@@ -6,7 +6,7 @@ Made by the NetherKingdom Team!
 We need some help!
 
 #### TODO (v1.0.0):
-- [ ] Messages
+- [x] Messages
 - [ ] Email system
 - [ ] Change to a new password with a email/old password
 - [x] Login - register commands etc.
