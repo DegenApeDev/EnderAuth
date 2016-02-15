@@ -9,11 +9,11 @@ We need some help!
 - [ ] Messages
 - [ ] Email system
 - [ ] Change to a new password with a email/old password
-- [ ] Login - register commands etc.
-- [ ] No moving/drop/jump/attacking item (event)
-- [ ] Only chat after logged in (event)
+- [x] Login - register commands etc.
+- [x] No moving/drop/jump/attacking item (event)
+- [x] Only chat after logged in (event)
 - [ ] Only allowed commands when not logged in: /login, /register, /help
-- [ ] Login timeout after ? min
+- [x] Login timeout after ? min
 - [ ] Dicret login and register by typing password in chat to register/login
 - [ ] Confirm register password by typing your password again in chat
 - [ ] Confirm changing your password with new one you will have
