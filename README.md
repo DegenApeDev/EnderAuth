@@ -20,3 +20,4 @@ We need some help!
 - [ ] IpAuth login by the same ip adress like the last one
 - [ ] If you didnt be in the server for ? days we delete your account
 - [ ] You get ? times to login/register and if you tryed ? times you gonna be kicked
+- [x] Add plugin on and off commands in config.yml
