@@ -1,5 +1,4 @@
 # EnderAuth
-# The best auth in the universe!
-# Made by the EndKingdom Team!
-# No forking and Pull Request's.
-# We need some help!
+The best auth in the universe! (not proven)
+Made by the EndKingdom Team!
+We need some help!
