@@ -16,3 +16,13 @@ We need some help!
 8: you can only do /help but you cant do anything still 
 9: kick if not logged or registerd in after 5 min 
 10: timeout like you got kicked because you didnt register or logged in DONE
+
+#### TODO (v1.0.0):
+- [ ] Messages
+- [ ] Email system
+- [ ] Change password
+- [ ] Login - register commands etc.
+- [ ] No moving (event)
+- [ ] Only chat after logged in (event)
+- [ ] Only allowed commands when not logged in: /login, /register, /help
+- [ ] login timeout after 5 minutes
