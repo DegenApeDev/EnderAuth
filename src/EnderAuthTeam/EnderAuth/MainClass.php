@@ -23,10 +23,13 @@ class MainClass extends PluginBase implements Listener
           $this->config = new Config($this->getDataFolder."config.yml", Config::YAML);
           $cfg = $this->getConfig()->getAll();
           $message = $cfg["show-message"];
-          if ($message == true){
-            $msg = $cfg["join-message"];
-            $name = $event->getPlayer()->getDisplayName();
-            $name->sendMessage($msg);
+          $enable = $cfg["enable-plugin"];
+          if ($enable == true){
+               if ($message == true){
+                    $msg = $cfg["join-message"];
+                    $name = $event->getPlayer()->getDisplayName();
+                    $name->sendMessage($msg);
+               }
           }
      }
  }
