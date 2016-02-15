@@ -6,7 +6,7 @@ Register-message: "Register by typing a password into chat."
 
 Login-message: "Login by typing your password into chat."
 
-WrongPass-message: "That is a wrong password you have ? Time more to login."
+WrongPass-message: "That is a wrong password you have 5 Time more to login."
 
 Succes-message: "You are registered."
 
@@ -23,4 +23,6 @@ IP-Auth: false
 Time-Out: false
 
 TimeOut-Times: 5
+
+Kick: false
 
