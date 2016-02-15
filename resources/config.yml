@@ -1,3 +1,26 @@
-join-message: Welcome to Test. We use EnderAuth
-show-message: true
+----------[EnderAuth]-----------
+
+Join-message: "Welcome to Test. We use EnderAuth."
+ 
+Register-message: "Register by typing a password into chat."
+
+Login-message: "Login by typing your password into chat."
+
+WrongPass-message: "That is a wrong password you have ? Time more to login."
+
+Succes-message: "You are registered."
+
+DontShare-message: "Dont share your password or they login in your account."
+
+IpAuth-message: "You logged in by your last ip adress."
+
+show-messages: true
+
 enable-plugin: true
+
+IP-Auth: false
+
+Time-Out: false
+
+TimeOut-Times: 5
+
