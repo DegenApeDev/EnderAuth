@@ -20,11 +20,14 @@ class MainClass extends PluginBase implements Listener
         }
         function onJoin(PlayerJoinEvent $event)
      {
-            $this->config = new Config($this->getDataFolder."config.yml", Config::YAML);
-            $cfg = $this->getConfig()->getAll();
+          $this->config = new Config($this->getDataFolder."config.yml", Config::YAML);
+          $cfg = $this->getConfig()->getAll();
+          $message = $cfg["show-message"];
+          if ($message == true){
             $msg = $cfg["join-message"];
             $name = $event->getPlayer()->getDisplayName();
             $name->sendMessage($msg);
+          }
      }
  }
     
