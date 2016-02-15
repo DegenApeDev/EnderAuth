@@ -19,4 +19,4 @@ We need some help!
 - [ ] Confirm changing your password with new one you will have
 - [ ] IpAuth login by the same ip adress like the last one
 - [ ] If you didnt be in the server for ? days we delete your account
-- [ ] You get ? times to login/register and if you tryed ? time you gonna be kicked
+- [ ] You get ? times to login/register and if you tryed ? times you gonna be kicked
