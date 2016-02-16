@@ -51,41 +51,41 @@ MaxLength: 20
    Move from one place to one place.
 Locomotion: false
 
-    Rotate head
+    Rotate head.
 Rotation: false
 
-  Get hurt
+  Get hurt.
 Damage: false
 
-  Touch other entities
+  Touch other entities.
 Attack: false
 
-  Drop items from inventory
+  Drop items from inventory.
 DropItem: false
 
-  Touch blocks/air, including placing/breaking blocks, opening chests, shooting arrows and throwing snowballs
+  Touch blocks/air, including placing/breaking blocks, opening chests, shooting arrows and throwing snowballs.
 Touch: flase
 
-  Pick a dropped item into inventory
+  Pick a dropped item into inventory.
 Pick: false
 
-  Eat food by long-clicking the screen
+  Eat food by long-clicking the screen.
 Eat: false
 
-  Players can jump if they are not logged or registered
+  Players can jump if they are not logged or registered.
 Jump: false
 
-  How many pages can players see if they are not logged in or registered
+  How many pages can players see if they are not logged in or registered.
 Pages: 2
 
-  We delete the account if the player has not been online for ? days
+  We delete the account if the player has not been online for ? days.
 Days: 30
 
-  How many accounts can player have
+  How many accounts can player have.
 Acccounts: 2
 
-  Kick the player if he can't login in this number of attempts
+  Kick the player if he can't login in this number of attempts.
 MaxAttempts: 4
 
-  Kick the player if he cant login in this time of secounds
+  Kick the player if he cant login in this time of secounds.
 Secounds: 500
