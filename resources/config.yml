@@ -1,18 +1,38 @@
 ----------[EnderAuth]-----------
 
 Join-message: "Welcome to Test. We use EnderAuth."
+
+Email-message: "Add your email by typing /email."
  
 Register-message: "Register by typing a password into chat."
 
 Login-message: "Login by typing your password into chat."
 
-WrongPass-message: "That is a wrong password!"
+WrongPass-message: "That is a wrong password you have 4 times left!"
 
-Succes-message: "You are registered."
+SucceReg-message: "You are now registered."
+
+SucceLog-message: "You are now logged in."
 
 DontShare-message: "Dont share your password or they login in your account."
 
 IpAuth-message: "You logged in by your last ip adress."
+
+ConfirmReg-message: "Type your password again to confirm your password."
+
+ConfirmChange-message: "Type that password or email again to confirm that you changing password."
+
+ShortPass-message: "That password is too short it need to be at least 4 length!."
+
+LongPass-message: "That password is too long need to be max 20 Length!."
+
+PasswordMatch: "The two passwords you typed are not the same."
+
+ConfirmChange: false
+
+ChangePass: true
+
+ConfirmReg: false
 
 show-messages: true
 
@@ -20,9 +40,52 @@ enable-plugin: true
 
 IP-Auth: false
 
-Time-Out: false
+Time-Out: true
 
-TimeOut-Times: 5
+Email: true
 
-Kick: false
+MinLength: 4
 
+MaxLength: 20
+
+   Move from one place to one place.
+Locomotion: false
+
+    Rotate head
+Rotation: false
+
+  Get hurt
+Damage: false
+
+  Touch other entities
+Attack: false
+
+  Drop items from inventory
+DropItem: false
+
+  Touch blocks/air, including placing/breaking blocks, opening chests, shooting arrows and throwing snowballs
+Touch: flase
+
+  Pick a dropped item into inventory
+Pick: false
+
+  Eat food by long-clicking the screen
+Eat: false
+
+  Players can jump if they are not logged or registered
+Jump: false
+
+  How many pages can players see if they are not logged in or registered
+Pages: 2
+
+  We delete the account if the player has not been online for ? days
+Days: 30
+
+  How many accounts can player have
+Acccounts: 2
+
+  Kick the player if he can't login in this number of attempts
+MaxAttempts: 4
+
+  Kick the player if he cant login in this time of secounds
+Secounds: 500
