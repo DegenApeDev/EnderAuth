@@ -2,7 +2,7 @@ name: EnderAuth
 author: Matthww
 main: EnderAuth\EnderAuth\Loader
 version: "1.0.0"
-api: [1.13.0]
+api: [2.0.0]
 description: EnderAuth authentication plugin
 commands:
     login:
