@@ -1,7 +1,7 @@
 name: EnderAuth
 main: EnderAuthTeam\EnderAuth\MainClass
 version: 0.0.1
-api: [0.13.0]
+api: [2.0.0]
 author: EndKingdom
 description: The best PocketMine-MP auth plugin.
 commands:
